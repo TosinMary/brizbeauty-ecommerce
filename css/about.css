@@ -1,0 +1,10 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.underline-blue{
+    width: 200px;
+    height: 5px;
+}
+.about-content{
+    line-height: 30px;
+}

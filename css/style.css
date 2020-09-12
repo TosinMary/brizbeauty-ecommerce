@@ -1,0 +1,90 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ body{
+    font-family: 'Raleway', sans-serif;
+}
+.distext{
+    font-size: 35px;
+}
+.bg-bluenav{
+    width: 100%;
+    height: 100%;
+    background-color: sandybrown;
+}
+.navbase{
+    border-right: 2px solid slategrey;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    width: 90%;
+}
+.bg-blueheader{
+    background-color: burlywood;
+}
+.d-flex{
+    min-height: 20px;
+}
+.underline{
+    width: 280px;
+    height: 5px;
+    text-align: center;
+}
+.header-words{
+    min-height: 100px;
+}
+.underline-blue{
+    width: 200px;
+    height: 5px;
+}
+.cart-img-height{
+    max-height: 100px;
+}
+.card-title{
+    text-align: left;
+}
+.fa-gold{
+    background-color: gold;
+}
+/*media queries*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .distext{
+        font-size: 35px;
+        width: 35%;
+       
+    }
+    .distext1{
+        font-size: 15px;
+        width: 100%;
+        font-weight: bold;
+        
+    }
+        .carousel-caption {
+            position: absolute;
+            width: 25%;
+}
+}
+@media (max-width: 576px) {
+    .distext{
+        font-size: 25px;
+        width: 10%;
+        color: sienna;
+    }
+    .distext1{
+        font-size: 14px;
+        width: 100%;
+        font-weight: bold;
+        color: sienna;
+    }
+        .carousel-caption {
+            position: absolute;
+            width: 35%;
+}
